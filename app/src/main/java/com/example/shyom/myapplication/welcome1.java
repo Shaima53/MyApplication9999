@@ -40,7 +40,9 @@ public class welcome1 extends AppCompatActivity {
         t2=(TextView)findViewById(R.id.textViewEnterName);
         Typeface myCustomeFont2=Typeface.createFromAsset(getAssets(),"fonts/sego.ttf");
         t2.setTypeface(myCustomeFont2   );
-        t2.setShadowLayer(9,1,1,Color.GREEN);
+
+
+        t2.setShadowLayer(9,1,1,Color.GREEN);//shorog this is the shadow code
 
 
 
